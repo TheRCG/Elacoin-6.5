@@ -1212,20 +1212,10 @@ void ThreadDNSAddressSeed2(void* parg)
 }
 
 
-
-
-
-
-
-
-
-
-
-
 static const char * pnSeed[] =
 {
-    "198.199.86.4",
-    "192.99.37.224"
+    {"revivalco.in", "51.255.6.35"},
+    {"rcg.in", "91.203.142.168"}
 };
 
 void AddSeedNodes() {
